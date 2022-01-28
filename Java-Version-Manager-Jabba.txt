@@ -1,0 +1,14 @@
+Gerenciador de versões para java
+permite facilmente a mudança de versões JDK do java no sistema operacional.
+
+Github -> https://github.com/shyiko/jabba
+
+Download -> curl -sL https://github.com/shyiko/jabba/raw/master/install.sh | JABBA_VERSION=0.11.2 bash && . ~/.jabba/jabba.sh
+
+Comandos
+
+jabba ls-remote -> Lista todas as versões
+jabba install openjdk@1.11 -> instala a versão do java
+jabba use openjdk@1.11 -> Define a versão usada para o sistema operacional
+java -version -> Verifica a versão instalada no sistema operacional
+
