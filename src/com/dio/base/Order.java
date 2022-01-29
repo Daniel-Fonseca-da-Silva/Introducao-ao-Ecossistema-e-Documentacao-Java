@@ -12,6 +12,10 @@ public class Order {
         this.totalValue = totalValue;
     }
 
+    /**
+     * Comentário sobre while, do while, for e enhanced for
+     */
+
     // While
 //    public void printItens() {
 //        int i = 0;
