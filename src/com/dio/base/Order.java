@@ -1,5 +1,6 @@
 package com.dio.base;
 
+// Classe order
 public class Order {
 
     private String code;
